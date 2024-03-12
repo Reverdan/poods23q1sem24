@@ -1,0 +1,17 @@
+C:\Users\Rever\Documents\Visual Studio 2022\Projetos\Calculadora23Q\Calculadora23Q\bin\Debug\net7.0-windows\Calculadora23Q.exe
+C:\Users\Rever\Documents\Visual Studio 2022\Projetos\Calculadora23Q\Calculadora23Q\bin\Debug\net7.0-windows\Calculadora23Q.deps.json
+C:\Users\Rever\Documents\Visual Studio 2022\Projetos\Calculadora23Q\Calculadora23Q\bin\Debug\net7.0-windows\Calculadora23Q.runtimeconfig.json
+C:\Users\Rever\Documents\Visual Studio 2022\Projetos\Calculadora23Q\Calculadora23Q\bin\Debug\net7.0-windows\Calculadora23Q.dll
+C:\Users\Rever\Documents\Visual Studio 2022\Projetos\Calculadora23Q\Calculadora23Q\bin\Debug\net7.0-windows\Calculadora23Q.pdb
+C:\Users\Rever\Documents\Visual Studio 2022\Projetos\Calculadora23Q\Calculadora23Q\obj\Debug\net7.0-windows\Calculadora23Q.csproj.AssemblyReference.cache
+C:\Users\Rever\Documents\Visual Studio 2022\Projetos\Calculadora23Q\Calculadora23Q\obj\Debug\net7.0-windows\Calculadora23Q.Form1.resources
+C:\Users\Rever\Documents\Visual Studio 2022\Projetos\Calculadora23Q\Calculadora23Q\obj\Debug\net7.0-windows\Calculadora23Q.csproj.GenerateResource.cache
+C:\Users\Rever\Documents\Visual Studio 2022\Projetos\Calculadora23Q\Calculadora23Q\obj\Debug\net7.0-windows\Calculadora23Q.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rever\Documents\Visual Studio 2022\Projetos\Calculadora23Q\Calculadora23Q\obj\Debug\net7.0-windows\Calculadora23Q.AssemblyInfoInputs.cache
+C:\Users\Rever\Documents\Visual Studio 2022\Projetos\Calculadora23Q\Calculadora23Q\obj\Debug\net7.0-windows\Calculadora23Q.AssemblyInfo.cs
+C:\Users\Rever\Documents\Visual Studio 2022\Projetos\Calculadora23Q\Calculadora23Q\obj\Debug\net7.0-windows\Calculadora23Q.csproj.CoreCompileInputs.cache
+C:\Users\Rever\Documents\Visual Studio 2022\Projetos\Calculadora23Q\Calculadora23Q\obj\Debug\net7.0-windows\Calculadora23Q.dll
+C:\Users\Rever\Documents\Visual Studio 2022\Projetos\Calculadora23Q\Calculadora23Q\obj\Debug\net7.0-windows\refint\Calculadora23Q.dll
+C:\Users\Rever\Documents\Visual Studio 2022\Projetos\Calculadora23Q\Calculadora23Q\obj\Debug\net7.0-windows\Calculadora23Q.pdb
+C:\Users\Rever\Documents\Visual Studio 2022\Projetos\Calculadora23Q\Calculadora23Q\obj\Debug\net7.0-windows\Calculadora23Q.genruntimeconfig.cache
+C:\Users\Rever\Documents\Visual Studio 2022\Projetos\Calculadora23Q\Calculadora23Q\obj\Debug\net7.0-windows\ref\Calculadora23Q.dll
