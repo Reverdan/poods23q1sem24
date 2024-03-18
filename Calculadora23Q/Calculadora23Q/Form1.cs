@@ -14,7 +14,7 @@ namespace Calculadora23Q
             Controle controle = new Controle();
             controle.num1 = txbPrimeiroNumero.Text;
             controle.num2 = txbSegundoNumero.Text;
-            controle.executar();
+            controle.Executar();
             if (controle.mensagem.Equals(""))
             {
                 lblResposta.Text = controle.resposta;
@@ -24,5 +24,7 @@ namespace Calculadora23Q
                 lblResposta.Text = controle.mensagem;
             }
         }
+
+
     }
 }

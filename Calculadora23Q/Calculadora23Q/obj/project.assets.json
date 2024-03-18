@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rever\\Documents\\Visual Studio 2022\\Projetos\\Calculadora23Q\\Calculadora23Q\\Calculadora23Q.csproj",
+      "projectUniqueName": "C:\\Users\\Rever\\Documents\\GitHub\\poods23q1sem24\\Calculadora23Q\\Calculadora23Q\\Calculadora23Q.csproj",
       "projectName": "Calculadora23Q",
-      "projectPath": "C:\\Users\\Rever\\Documents\\Visual Studio 2022\\Projetos\\Calculadora23Q\\Calculadora23Q\\Calculadora23Q.csproj",
+      "projectPath": "C:\\Users\\Rever\\Documents\\GitHub\\poods23q1sem24\\Calculadora23Q\\Calculadora23Q\\Calculadora23Q.csproj",
       "packagesPath": "C:\\Users\\Rever\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rever\\Documents\\Visual Studio 2022\\Projetos\\Calculadora23Q\\Calculadora23Q\\obj\\",
+      "outputPath": "C:\\Users\\Rever\\Documents\\GitHub\\poods23q1sem24\\Calculadora23Q\\Calculadora23Q\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rever\\AppData\\Roaming\\NuGet\\NuGet.Config",

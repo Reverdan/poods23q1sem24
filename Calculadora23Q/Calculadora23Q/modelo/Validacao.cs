@@ -24,7 +24,7 @@ namespace Calculadora23Q.modelo
             }
             catch (Exception erro)
             {
-                this.mensagem = "Digite valores válidos";
+                this.mensagem = "Digite valores corretos";
             }
         }
     }

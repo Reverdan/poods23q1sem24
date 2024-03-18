@@ -12,8 +12,9 @@ namespace Calculadora23Q.modelo
         public string num2;
         public string resposta;
         public string mensagem;
+        public string op;
 
-        public void executar()
+        public void Executar()
         {
             this.mensagem = "";
             Validacao validacao = new Validacao();
@@ -25,7 +26,8 @@ namespace Calculadora23Q.modelo
                 Calculos calculos = new Calculos();
                 calculos.n1 = validacao.n1;
                 calculos.n2 = validacao.n2;
-                calculos.somar();
+                calculos.op = this.op;
+                calculos.Calcular();
                 this.resposta = calculos.resultado.ToString();
             }
             else

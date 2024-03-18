@@ -34,6 +34,9 @@
             txbSegundoNumero = new TextBox();
             btnSomar = new Button();
             lblResposta = new Label();
+            btnSubtrair = new Button();
+            btnMultiplicar = new Button();
+            btnDividir = new Button();
             SuspendLayout();
             // 
             // lblPrimeiroNumero
@@ -70,28 +73,58 @@
             // 
             // btnSomar
             // 
-            btnSomar.Location = new Point(59, 154);
+            btnSomar.Location = new Point(28, 148);
             btnSomar.Name = "btnSomar";
-            btnSomar.Size = new Size(75, 23);
+            btnSomar.Size = new Size(56, 23);
             btnSomar.TabIndex = 4;
-            btnSomar.Text = "Somar";
+            btnSomar.Text = "+";
             btnSomar.UseVisualStyleBackColor = true;
             btnSomar.Click += btnSomar_Click;
             // 
             // lblResposta
             // 
             lblResposta.AutoSize = true;
-            lblResposta.Location = new Point(28, 203);
+            lblResposta.Location = new Point(28, 212);
             lblResposta.Name = "lblResposta";
             lblResposta.Size = new Size(54, 15);
             lblResposta.TabIndex = 5;
             lblResposta.Text = "Resposta";
+            // 
+            // btnSubtrair
+            // 
+            btnSubtrair.Location = new Point(109, 148);
+            btnSubtrair.Name = "btnSubtrair";
+            btnSubtrair.Size = new Size(56, 23);
+            btnSubtrair.TabIndex = 6;
+            btnSubtrair.Text = "-";
+            btnSubtrair.UseVisualStyleBackColor = true;
+            // 
+            // btnMultiplicar
+            // 
+            btnMultiplicar.Location = new Point(28, 177);
+            btnMultiplicar.Name = "btnMultiplicar";
+            btnMultiplicar.Size = new Size(56, 23);
+            btnMultiplicar.TabIndex = 7;
+            btnMultiplicar.Text = "x";
+            btnMultiplicar.UseVisualStyleBackColor = true;
+            // 
+            // btnDividir
+            // 
+            btnDividir.Location = new Point(109, 177);
+            btnDividir.Name = "btnDividir";
+            btnDividir.Size = new Size(56, 23);
+            btnDividir.TabIndex = 8;
+            btnDividir.Text = "/";
+            btnDividir.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(202, 248);
+            Controls.Add(btnDividir);
+            Controls.Add(btnMultiplicar);
+            Controls.Add(btnSubtrair);
             Controls.Add(lblResposta);
             Controls.Add(btnSomar);
             Controls.Add(txbSegundoNumero);
@@ -112,5 +145,8 @@
         private TextBox txbSegundoNumero;
         private Button btnSomar;
         private Label lblResposta;
+        private Button btnSubtrair;
+        private Button btnMultiplicar;
+        private Button btnDividir;
     }
 }

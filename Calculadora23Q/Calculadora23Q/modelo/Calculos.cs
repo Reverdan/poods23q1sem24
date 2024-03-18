@@ -10,11 +10,19 @@ namespace Calculadora23Q.modelo
     {
         public int n1;
         public int n2;
+        public string op;
         public int resultado;
 
-        public void somar()
+        public void Calcular()
         {
-            resultado = n1 + n2;
+            if (this.op.Equals("+"))
+                resultado = n1 + n2;
+            if (this.op.Equals("-"))
+                resultado = n1 - n2;
+            if (this.op.Equals("*"))
+                resultado = n1 * n2;
+            if (this.op.Equals("/"))
+                resultado = n1 / n2;
         }
     }
 }
