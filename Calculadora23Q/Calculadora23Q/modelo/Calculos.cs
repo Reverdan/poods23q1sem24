@@ -8,21 +8,17 @@ namespace Calculadora23Q.modelo
 {
     public class Calculos
     {
-        public int n1;
-        public int n2;
-        public string op;
-        public int resultado;
-
-        public void Calcular()
+        public int Calcular(int n1, int n2, string op)
         {
-            if (this.op.Equals("+"))
-                resultado = n1 + n2;
-            if (this.op.Equals("-"))
-                resultado = n1 - n2;
-            if (this.op.Equals("*"))
-                resultado = n1 * n2;
-            if (this.op.Equals("/"))
-                resultado = n1 / n2;
+            if (op.Equals("+"))
+                return n1 + n2;
+            if (op.Equals("-"))
+                return n1 - n2;
+            if (op.Equals("*"))
+                return n1 * n2;
+            if (op.Equals("/"))
+                return n1 / n2;
+            return 0;
         }
     }
 }

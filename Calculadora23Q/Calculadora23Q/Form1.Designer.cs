@@ -98,6 +98,7 @@
             btnSubtrair.TabIndex = 6;
             btnSubtrair.Text = "-";
             btnSubtrair.UseVisualStyleBackColor = true;
+            btnSubtrair.Click += btnSubtrair_Click;
             // 
             // btnMultiplicar
             // 
@@ -107,6 +108,7 @@
             btnMultiplicar.TabIndex = 7;
             btnMultiplicar.Text = "x";
             btnMultiplicar.UseVisualStyleBackColor = true;
+            btnMultiplicar.Click += btnMultiplicar_Click;
             // 
             // btnDividir
             // 
@@ -116,6 +118,7 @@
             btnDividir.TabIndex = 8;
             btnDividir.Text = "/";
             btnDividir.UseVisualStyleBackColor = true;
+            btnDividir.Click += btnDividir_Click;
             // 
             // Form1
             // 

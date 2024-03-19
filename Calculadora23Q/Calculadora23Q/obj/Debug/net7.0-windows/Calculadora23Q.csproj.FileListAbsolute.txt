@@ -25,3 +25,10 @@ C:\Users\Rever\Documents\GitHub\poods23q1sem24\Calculadora23Q\Calculadora23Q\obj
 C:\Users\Rever\Documents\GitHub\poods23q1sem24\Calculadora23Q\Calculadora23Q\obj\Debug\net7.0-windows\Calculadora23Q.dll
 C:\Users\Rever\Documents\GitHub\poods23q1sem24\Calculadora23Q\Calculadora23Q\obj\Debug\net7.0-windows\refint\Calculadora23Q.dll
 C:\Users\Rever\Documents\GitHub\poods23q1sem24\Calculadora23Q\Calculadora23Q\obj\Debug\net7.0-windows\Calculadora23Q.pdb
+C:\Users\Rever\Documents\GitHub\poods23q1sem24\Calculadora23Q\Calculadora23Q\bin\Debug\net7.0-windows\Calculadora23Q.exe
+C:\Users\Rever\Documents\GitHub\poods23q1sem24\Calculadora23Q\Calculadora23Q\bin\Debug\net7.0-windows\Calculadora23Q.deps.json
+C:\Users\Rever\Documents\GitHub\poods23q1sem24\Calculadora23Q\Calculadora23Q\bin\Debug\net7.0-windows\Calculadora23Q.runtimeconfig.json
+C:\Users\Rever\Documents\GitHub\poods23q1sem24\Calculadora23Q\Calculadora23Q\bin\Debug\net7.0-windows\Calculadora23Q.dll
+C:\Users\Rever\Documents\GitHub\poods23q1sem24\Calculadora23Q\Calculadora23Q\bin\Debug\net7.0-windows\Calculadora23Q.pdb
+C:\Users\Rever\Documents\GitHub\poods23q1sem24\Calculadora23Q\Calculadora23Q\obj\Debug\net7.0-windows\Calculadora23Q.genruntimeconfig.cache
+C:\Users\Rever\Documents\GitHub\poods23q1sem24\Calculadora23Q\Calculadora23Q\obj\Debug\net7.0-windows\ref\Calculadora23Q.dll

@@ -13,6 +13,7 @@ namespace Calculadora23Q.modelo
         public int n1;
         public int n2;
         public string mensagem;
+        public string op;
 
         public void validar()
         {
@@ -21,6 +22,8 @@ namespace Calculadora23Q.modelo
             {
                 this.n1 = Convert.ToInt32(this.num1);
                 this.n2 = Convert.ToInt32(this.num2);
+                if (this.op.Equals("/") && this.n2.Equals(0))
+                    this.mensagem = "Divisão por 0";
             }
             catch (Exception erro)
             {
