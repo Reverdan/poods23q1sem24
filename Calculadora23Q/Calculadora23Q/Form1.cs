@@ -11,18 +11,14 @@ namespace Calculadora23Q
 
         public void Calcular(String op)
         {
-            Controle controle = new Controle();
-            controle.num1 = txbPrimeiroNumero.Text;
-            controle.num2 = txbSegundoNumero.Text;
-            controle.op = op;
-            controle.Executar();
-            if (controle.mensagem.Equals(""))
+            Controle controle = new Controle(txbPrimeiroNumero.Text, txbSegundoNumero.Text, op);
+            if (controle.Mensagem.Equals(""))
             {
-                lblResposta.Text = controle.resposta;
+                lblResposta.Text = controle.Resultado;
             }
             else
             {
-                lblResposta.Text = controle.mensagem;
+                lblResposta.Text = controle.Mensagem;
             }
         }
 

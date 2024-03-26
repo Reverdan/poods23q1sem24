@@ -8,29 +8,36 @@ namespace Calculadora23Q.modelo
 {
     public class Controle
     {
-        public string num1;
-        public string num2;
-        public string resposta;
-        public string mensagem;
-        public string op;
+        private string num1;
+        private string num2;
+        private string op;
 
-        public void Executar()
+        private string resultado;
+        private string mensagem;
+
+        public string Resultado { get => resultado;}
+        public string Mensagem { get => mensagem;}
+
+        public Controle(string num1, string num2, string op)
+        {
+            this.num1 = num1;
+            this.num2 = num2;
+            this.op = op;
+            this.Executar();
+        }
+
+        private void Executar()
         {
             this.mensagem = "";
-            Validacao validacao = new Validacao();
-            validacao.num1 = this.num1;
-            validacao.num2 = this.num2;
-            validacao.op = this.op;
-            validacao.validar();
-            if (validacao.mensagem.Equals(""))
+            Validacao validacao = new Validacao(this.num1, this.num2, this.op);
+            if (validacao.Mensagem.Equals(""))
             {
-                Calculos calculos = new Calculos();
-                this.resposta = 
-                    calculos.Calcular(validacao.n1, validacao.n2, this.op).ToString();
+                Calculos calculos = new Calculos(validacao.N1, validacao.N2, this.op);
+                this.resultado = calculos.Resposta.ToString();
             }
             else
             {
-                this.mensagem = validacao.mensagem;
+                this.mensagem = validacao.Mensagem;
             }
         }
     }

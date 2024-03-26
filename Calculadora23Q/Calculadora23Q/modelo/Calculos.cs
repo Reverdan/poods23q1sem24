@@ -8,17 +8,37 @@ namespace Calculadora23Q.modelo
 {
     public class Calculos
     {
-        public int Calcular(int n1, int n2, string op)
+        private int n1;
+        private int n2;
+        private string op;
+
+        private int resposta;
+
+        public Calculos(int n1, int n2, string op)
+        {
+            this.n1 = n1;
+            this.n2 = n2;
+            this.op = op;
+            this.Calcular();
+        }
+
+        public int Resposta
+        {
+            get { return resposta; }
+        }
+
+        public void Calcular()
         {
             if (op.Equals("+"))
-                return n1 + n2;
+                resposta = n1 + n2;
             if (op.Equals("-"))
-                return n1 - n2;
+                resposta = n1 - n2;
             if (op.Equals("*"))
-                return n1 * n2;
+                resposta = n1 * n2;
             if (op.Equals("/"))
-                return n1 / n2;
-            return 0;
+                resposta = n1 / n2;
         }
     }
+
+
 }

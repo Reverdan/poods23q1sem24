@@ -8,14 +8,27 @@ namespace Calculadora23Q.modelo
 {
     public class Validacao
     {
-        public string num1;
-        public string num2;
-        public int n1;
-        public int n2;
-        public string mensagem;
-        public string op;
+        private string num1;
+        private string num2;
+        private string op;
 
-        public void validar()
+        private int n1;
+        private int n2;
+        private string mensagem;
+
+        public int N1 { get => n1;}
+        public int N2 { get => n2;}
+        public string Mensagem { get => mensagem;}
+
+        public Validacao(string num1, string num2, string op)
+        {
+            this.num1 = num1;
+            this.num2 = num2;
+            this.op = op;
+            this.Validar();
+        }
+
+        private void Validar()
         {
             this.mensagem = "";
             try
